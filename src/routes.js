@@ -9,22 +9,27 @@ const routes = [
         path: "/",
         component: Home,
         // exact: true,
+        name: "Home"
     },
     {
-        path: "/About",
+        path: "/about",
         component: About,
+        name: "About"
     },
     {
-        path: "/Portfolio",
+        path: "/portfolio",
         component: Portfolio,
+        name: "Portfolio"
     },
     {
-        path: "/Skills",
+        path: "/skills",
         component: Skills,
+        name: "Skills"
     },
     {
-        path: "/Contact",
+        path: "/contact",
         component: Contact,
+        name: "Contact"
     },
 ]
 
