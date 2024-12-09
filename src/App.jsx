@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles/App.css";
 import { Route, Routes } from "react-router-dom";
 import routes from "./routes";
 import Header from "./components/Header.jsx";
@@ -14,7 +14,7 @@ function App() {
           <Route key={index} path={path} element={<Component />} />
         ))}
       </Routes>
-      
+
       <Footer />
     </div>
   );
