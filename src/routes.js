@@ -1,35 +1,42 @@
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
-import Skills from "./pages/Skills"
+import Projects from "./pages/Projects"
+import Resume from "./pages/Resume"
 import Contact from "./pages/Contact"
+
+import { faHome, faUser, faDisplay, faFileLines, faAddressCard } from "@fortawesome/free-solid-svg-icons"
 
 const routes = [
     {
         path: "/",
         component: Home,
         // exact: true,
-        name: "Home"
+        name: "Home",
+        icons: faHome,
     },
     {
         path: "/about",
         component: About,
-        name: "About"
+        name: "About",
+        icons: faUser,
     },
     {
-        path: "/portfolio",
-        component: Portfolio,
-        name: "Portfolio"
+        path: "/projects",
+        component: Projects,
+        name: "Projects",
+        icons: faDisplay,
     },
     {
-        path: "/skills",
-        component: Skills,
-        name: "Skills"
+        path: "/resume",
+        component: Resume,
+        name: "Resume",
+        icons: faFileLines,
     },
     {
         path: "/contact",
         component: Contact,
-        name: "Contact"
+        name: "Contact",
+        icons: faAddressCard,
     },
 ]
 

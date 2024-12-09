@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Skills(props) {
+function Resume(props) {
     return (
         <div>
-            <h1>Skills</h1>
+            <h1>Resume</h1>
         </div>
     );
 }
 
-export default Skills;
+export default Resume;
