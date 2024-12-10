@@ -6,15 +6,15 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Header />
-
-      <Routes>
-        {routes.map(({ path, component: Component }, index) => (
-          <Route key={index} path={path} element={<Component />} />
-        ))}
-      </Routes>
-
+      <main className="content">
+        <Routes>
+          {routes.map(({ path, component: Component }, index) => (
+            <Route key={index} path={path} element={<Component />} />
+          ))}
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

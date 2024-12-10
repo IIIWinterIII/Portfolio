@@ -1,14 +1,28 @@
 import React from "react";
-import "../styles/pages/Home.css"
+import "../styles/pages/Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
     <main>
-      <div>
-        <h1>Привет! Меня зовут Низами.</h1>
-        <p>
-          Frontend-разработчик, создаю современные и удобные веб-приложения.
-        </p>
+      <div className="vision-section">
+        <div className="text-box">
+          <h1>Привет!</h1>
+          <h1>Меня зовут Низами.</h1>
+          <p>
+            Я Frontend-разработчик, создаю современные и удобные веб-приложения.
+          </p>
+        </div>
+        <img
+          src="../assets/images/home-main.png"
+          alt="home pic"
+          className="image"
+        />
+      </div>
+      <div className="icon-down">
+        <FontAwesomeIcon icon={faChevronDown} /> 
       </div>
       <div>
         <h2>Технологии:</h2>
