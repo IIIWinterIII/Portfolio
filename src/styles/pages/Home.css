@@ -1,7 +1,7 @@
 * {
   /* border: 1px solid greenyellow; */
 }
-
+/* Первые видимые элементы страницы (Приветствие и картинка) */
 main {
   width: 100%;
   background-color: black;
@@ -13,7 +13,7 @@ main .vision-section {
   display: flex;
   align-content: center;
   justify-content: space-around;
-  padding: 10px 50px 130px;
+  padding: 10px 50px 100px;
   height: auto;
 }
 
@@ -46,21 +46,26 @@ main .vision-section .image {
   padding: 0 10px;
 }
 
+/* Стрелка */
 .icon-down {
-    width: 100%;
-    font-size: 3em;
-    display: flex;
-    justify-content: center;
-    animation: jump 2s infinite;
+  width: 100%;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  animation: jump 2s infinite;
 }
 
 @keyframes jump {
-    0%, 100% {
-      transform: translateY(0);
-      opacity: 1; /* Полностью видимая */
-    }
-    50% {
-      transform: translateY(-10px);
-      opacity: 0.7; /* Немного прозрачная */
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1; /* Полностью видимая */
   }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.7; /* Немного прозрачная */
+  }
+}
+/* -----End----- */
+
+/* Навыки Skills */
