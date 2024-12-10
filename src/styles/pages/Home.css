@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid greenyellow; */
+  border: 1px solid greenyellow;
 }
 /* Первые видимые элементы страницы (Приветствие и картинка) */
 main {
@@ -8,6 +8,12 @@ main {
   color: white;
   padding-top: 120px;
 }
+
+/* Общий span */
+main span {
+    color: blueviolet;
+}
+/* -------------------- */
 
 main .vision-section {
   display: flex;
@@ -69,3 +75,50 @@ main .vision-section .image {
 /* -----End----- */
 
 /* Навыки Skills */
+main .intro {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin: 50px 50px;
+  padding: 0 20px;
+}
+
+main .intro .text-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+main .intro .text-box p {
+  padding: 50px 50px;
+  font-size: 1.5em;
+  text-indent: 20px;
+}
+
+main .intro .text-box p:first-child,
+main .intro .text-box p:last-child {
+  position: relative;
+  top: 0;
+  right: 70px;
+}
+
+main .intro .text-box p:nth-child(2) {
+  position: relative;
+  top: 0;
+  left: 70px;
+}
+
+main .intro .avatar img {
+  height: auto;
+  max-height: 350px;
+  border-radius: 50%;
+}
+
+/* Последний элемент Home (end-home) */
+main .end-home {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 1.3em;
+}
