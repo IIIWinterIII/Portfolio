@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/pages/Home.css";
+import ContactButton from "../components/ContactButton.jsx"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
@@ -59,9 +59,7 @@ function Home() {
       </div>
       <div>
         <h2>Не стесняйтесь связаться со мной</h2>
-        <div className="contacts">
-        
-        </div>
+        <ContactButton />
       </div>
     </main>
   );

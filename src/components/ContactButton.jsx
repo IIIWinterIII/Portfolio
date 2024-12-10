@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/components/Footer.css";
+import "../styles/components/ContactButton.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram, faGithub } from "@fortawesome/free-brands-svg-icons";
-
+ 
 function ContactButton() {
   return (
       <div className="contact-box">
