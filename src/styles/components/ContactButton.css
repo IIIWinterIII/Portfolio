@@ -22,26 +22,26 @@
     padding: 10px;
   }
   
-   a:hover:first-child {
+  .contact-box a:hover:first-child {
     background-color: #0a0416;
     box-shadow: none;
-    color: #00aced;
-    box-shadow: 0 0 1px #00aced, 0 0 5px #00aced, 0 0 5px #00aced;
-    border-color: #00aced;
+    color: blueviolet;
+    box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+    border-color: blueviolet;
     transform: scale(1.1);
   }
   
-   a:hover {
+  .contact-box a:hover {
     color: #000000;
-    box-shadow: 0 0 30px #00aced, 0 0 40px #00aced;
-    background-color: #00aced;
+    box-shadow: 0 0 30px blueviolet, 0 0 40px blueviolet;
+    background-color: blueviolet;
   }
   
-   a .icon:hover {
+  .contact-box a .icon:hover {
     transform: scale(1.5);
   }
   
-   a .icon {
+  .contact-box a .icon {
     font-size: 2rem;
     transition: transform 0.3s ease;
     display: inline-block;

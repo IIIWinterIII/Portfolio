@@ -9,8 +9,8 @@ function Home() {
     <main>
       <div className="vision-section">
         <div className="text-box">
-          <h1><span>Привет!</span></h1>
-          <h1>Меня зовут <span>Низами</span>.</h1>
+         <span> <h1>Привет!</h1>
+          <h1>Меня зовут Низами.</h1></span>
           <p>
             Я <span>Frontend-разработчик</span>, создаю современные и удобные <span>веб-приложения</span>.
           </p>
@@ -57,7 +57,7 @@ function Home() {
           работах!
         </h3>
       </div>
-      <div>
+      <div className="contact-me">
         <h2>Не стесняйтесь связаться со мной</h2>
         <ContactButton />
       </div>
