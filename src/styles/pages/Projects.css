@@ -1,0 +1,18 @@
+* {
+    /* border: 1px solid greenyellow; */
+}
+
+.container-projects {
+position: relative;
+top: -120px;
+}
+
+.container-projects .text-section {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.container-projects .text-section h1 {
+    padding: 20px;
+
+}
