@@ -1,6 +1,6 @@
-* {
-  /* border: 1px solid greenyellow; */
-}
+/* * {
+  border: 1px solid greenyellow;
+} */
 /* Первые видимые элементы страницы (Приветствие и картинка) */
 main {
   width: 100%;
@@ -12,23 +12,6 @@ main {
 /* Общий span */
 main span {
   color: blueviolet;
-  text-shadow: 0 0 10px #000000, 0 0 10px blueviolet, 0 0 10px blueviolet;
-  animation: shadowGradient 3s infinite alternate;
-}
-
-@keyframes shadowGradient {
-  0% {
-    text-shadow: 0 0 10px #000000, 0 0 10px rgba(138, 43, 226, 0.1),
-      0 0 10px rgba(138, 43, 226, 0.1);
-  }
-  50% {
-    text-shadow: 0 0 10px #000000, 0 0 10px rgba(138, 43, 226, 0.3),
-      0 0 10px rgba(138, 43, 226, 0.3);
-  }
-  100% {
-    text-shadow: 0 0 10px #000000, 0 0 10px rgba(138, 43, 226, 1),
-      0 0 10px rgba(138, 43, 226, 1);
-  }
 }
 /* -------------------- */
 
