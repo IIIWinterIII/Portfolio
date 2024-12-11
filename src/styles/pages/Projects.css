@@ -1,18 +1,120 @@
 * {
-    /* border: 1px solid greenyellow; */
+  /* border: 1px solid greenyellow; */
 }
 
+
 .container-projects {
-position: relative;
-top: -120px;
+  position: relative;
+  top: -120px;
 }
 
 .container-projects .text-section {
-    text-align: center;
-    font-size: 1.3em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 .container-projects .text-section h1 {
-    padding: 20px;
+  padding: 20px;
+}
 
+.container-projects .box-with-projects {
+  display: flex;
+  /* align-items: start; */
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px;
+  height: 100%;
+}
+
+.container-projects .box-with-projects .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid blueviolet;
+  max-width: 400px;
+  /* height: 100% ; */
+
+  border-radius: 5px;
+
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    rgba(138, 43, 226, 0.2),
+    #000000,
+    rgba(138, 43, 226, 0.2)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container-projects .box-with-projects .project .description {
+  max-width: 350px;
+  flex-grow: 1;
+  /* ////////////////////////////// */
+}
+
+.container-projects .box-with-projects .project .description .title {
+  font-size: 1.5em;
+  text-align: center;
+  text-indent: 0 !important;
+  padding: 20px 0 5px;
+}
+
+.container-projects .box-with-projects .project .description p {
+  padding: 5px 5px;
+  font-size: 1.3em;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.container-projects .box-with-projects .project .image {
+  height: auto;
+  max-width: 350px;
+  height: 260px;
+  margin: 20px 30px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.container-projects .box-with-projects .project .button-section {
+  margin: 20px;
+  display: flex;
+}
+
+.container-projects .box-with-projects .project .button-section a {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin: 0 20px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s;
+}
+
+.container-projects .box-with-projects .project .button-section a:hover {
+  color: blueviolet;
+  box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+  border-color: blueviolet;
+  transform: scale(1.1);
 }
