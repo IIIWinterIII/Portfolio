@@ -1,0 +1,122 @@
+* {
+  /* border: 1px solid greenyellow; */
+}
+
+.container-about {
+  width: 100%;
+  margin: -120px auto 0;
+}
+
+.container-about h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.container-about .text-img-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 100px 50px;
+}
+
+.container-about .text-img-box .image {
+  max-height: 350px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-about .text-img-box .text-section {
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container-about .text-img-box .text-section p {
+  font-size: 1.3em;
+  text-indent: 20px;
+  padding: 30px;
+  margin: 50px;
+  max-width: 70%;
+
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 10px 5px 5px blueviolet;
+  text-align: center;
+
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    rgba(138, 43, 226, 0.2),
+    #000000,
+    rgba(138, 43, 226, 0.2)
+  );
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container-about .text-img-box .text-section p:first-child,
+.container-about .text-img-box .text-section p:last-child {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.container-about .text-img-box .text-section p:nth-child(2) {
+  position: relative;
+  top: 0;
+  left: 120px;
+}
+
+.container-about .scills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+/* scills */
+.container-about .scills h1 {
+  margin: 30px 0 20px;
+}
+
+.container-about .scills .box-with-boxs {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-about .scills .box-with-boxs .border-box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #c770f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 3px;
+  transition: transform 0.5s ease;
+}
+
+.container-about .scills .box-with-boxs .border-box .icon {
+  font-size: 5em;
+  color: white;
+}
+
+.container-about .scills .box-with-boxs .border-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px blueviolet, 0 0 8px blueviolet;
+}
