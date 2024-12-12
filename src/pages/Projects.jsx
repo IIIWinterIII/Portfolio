@@ -7,7 +7,7 @@ function Projects() {
       <section className="text-section">
         <h1>Мои последние работы</h1>
         <h3>
-          Вот несколько проектов, которые я создавал для обучения и практики.
+          Вот несколько <span>проектов</span>, которые я создавал для <span>обучения</span> и <span>практики</span>.
         </h3>
       </section>
       <div className="box-with-projects">
