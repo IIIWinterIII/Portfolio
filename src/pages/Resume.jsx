@@ -1,10 +1,11 @@
 import React from 'react';
 
-function Resume(props) {
+function Resume() {
     return (
-        <div>
-            <h1>Resume</h1>
-        </div>
+        <main className='container-resume'>
+            <a href="path-to-your-resume.pdf" download="Your-Resume.pdf" class="download-button">Download Resume</a>
+
+        </main>
     );
 }
 
