@@ -1,0 +1,110 @@
+* {
+  /* border: 1px solid greenyellow; */
+}
+
+.container-contact {
+  margin: -120px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-contact .contacts-box .contact-messager h1 {
+  padding: 0 20px;
+  text-align: end;
+}
+
+.container-contact .contacts-box .contact-messager {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid blueviolet;
+  text-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet;
+  min-height: 100px;
+  max-width: 600px;
+  padding: 0 20px;
+  margin: 40px 20px;
+}
+
+.container-contact .contacts-box .contact-messager:nth-child(2),
+.container-contact .contacts-box .contact-messager:nth-child(3) {
+  max-width: 300px;
+}
+
+.container-contact .contacts-box .contact-messager a {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 0.5em;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s;
+}
+
+.container-contact .contacts-box .contact-messager .mail,
+.container-contact .contacts-box .contact-messager .download-resume-button {
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.container-contact .contacts-box .contact-messager .mail:hover,
+.container-contact
+  .contacts-box
+  .contact-messager
+  .download-resume-button:hover {
+  background-color: #0a0416;
+  box-shadow: none;
+  color: blueviolet;
+  box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+  border-color: blueviolet;
+  transform: scale(1.1);
+}
+
+.container-contact .contacts-box .contact-messager a:hover {
+  color: #000000;
+  box-shadow: 0 0 30px blueviolet, 0 0 40px blueviolet;
+  background-color: blueviolet;
+}
+
+.container-contact .contacts-box .contact-messager a .icon:hover {
+  transform: scale(1.5);
+}
+
+.container-contact .contacts-box .contact-messager a .icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Работа с текстом */
+.container-contact .advertising-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-evenly;
+  max-width: 700px;
+  margin: 40px;
+}
+
+.container-contact .advertising-text .create-site {
+  margin-bottom: 50px;
+  
+}
+
+.container-contact .advertising-text p {
+  padding: 20px 0;
+  font-size: 1.5em;
+  
+}
+
+.container-contact .advertising-text ul li {
+  padding: 10px 0;
+  margin: 0 40px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+}
+
