@@ -1,12 +1,12 @@
-/* * {
+* {
   border: 1px solid greenyellow;
-} */
+}
 /* Первые видимые элементы страницы (Приветствие и картинка) */
 main {
   width: 100%;
   background-color: black;
   color: white;
-  padding-top: 120px;
+  padding-top: 70px;
 }
 
 /* Общий span */
