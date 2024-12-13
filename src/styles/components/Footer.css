@@ -1,19 +1,80 @@
 /* * {
-  border: 1px solid white;
+  border: 1px solid greenyellow;
 } */
+ 
 .container-footer {
   background-color: #0a0416;
   color: #ffffff;
-  padding: 1em;
+  padding: 5px;
   text-align: center;
   font-family: "Arial", sans-serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+
 }
 
-.container-footer h3 {
-  font-size: 1.2rem;
-  margin: 0 1em;
+.container-footer p {
+  font-size: 0.8rem;
+  margin: 0 5px;
+}
+
+.container-footer .contact-box {
+    min-height: 50px; 
+  
+}
+
+.container-footer .contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px; 
+}
+
+ .container-footer .contact-box a {
+  margin: 0 8px;
+  font-size: 0.7rem;
+}
+
+ .container-footer .contact-box a:first-child {
+  padding: 5px;
+}
+
+.container-footer .contact-box a:hover:first-child {
+  background-color: #0a0416;
+  box-shadow: none;
+  color: blueviolet;
+  box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+  border-color: blueviolet;
+  transform: scale(1.1);
+}
+
+.container-footer .contact-box a:hover {
+  box-shadow: 0 0 20px blueviolet, 0 0 30px blueviolet;
+}
+
+.container-footer .contact-box a .icon {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 767px) {
+  .container-footer {
+    flex-direction: column;
+  }
+
+  .container-footer p {
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .container-footer .contact-box {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
 }
 

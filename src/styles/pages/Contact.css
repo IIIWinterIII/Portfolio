@@ -1,6 +1,6 @@
-* {
-  /* border: 1px solid greenyellow; */
-}
+/* * {
+  border: 1px solid greenyellow;
+} */
 
 .container-contact {
   margin: -120px 0 0;
@@ -16,7 +16,7 @@
 .container-contact .contacts-box .contact-messager h1 {
   font-size: 1.5rem;
   padding: 0 20px;
-  text-align: end;
+  text-align: center;
 }
 
 .container-contact .contacts-box .contact-messager {
@@ -66,7 +66,7 @@
   box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
   border-color: blueviolet;
   transform: scale(1.1);
-}
+} 
 
 .container-contact .contacts-box .contact-messager a:hover {
   color: #000000;

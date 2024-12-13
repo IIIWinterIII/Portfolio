@@ -5,8 +5,8 @@ import ContactButton from "./ContactButton"
 function Footer() {
   return (
     <footer className="container-footer">
-      <h3>Разработано и создано IIIWinteRIII</h3>
-      <h3>Авторские права © 2024 N.K.</h3>
+      <p>Разработано и создано IIIWinteRIII</p>
+      <p>Авторские права © 2024 N.K.</p>
       <ContactButton />
     </footer>
   );
