@@ -3,7 +3,7 @@
   color: #ffffff;
   padding: 5px;
   text-align: center;
-  font-family: "Arial", sans-serif;
+  font-family: monospace;
   display: flex;
   justify-content: space-around;
   align-items: center;

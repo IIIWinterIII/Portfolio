@@ -179,6 +179,10 @@ header .btn:hover {
     font-size: 1.2rem;
   }
 
+  header nav ul li {
+    align-content: center;
+  }
+
   header .cbf .btn {
     padding: 10px 10px;
   }
