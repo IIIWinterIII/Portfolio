@@ -1,6 +1,6 @@
-* {
-  /* border: 1px solid greenyellow; */
-}
+/* * {
+  border: 1px solid greenyellow;
+} */
 
 .container-projects {
   position: relative;
@@ -81,7 +81,7 @@
 
 .container-projects .box-with-projects .project .description p {
   padding: 5px 5px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-indent: 20px;
   text-align: justify;
 }
@@ -136,7 +136,6 @@
 
   .container-projects .text-section h3 {
     font-size: 0.8em;
-
   }
 
   .container-projects .box-with-projects {
@@ -151,7 +150,6 @@
     max-width: 90%;
     font-size: 0.8em;
     font-family: Raleway, serif !important;
-  
   }
 
   .container-projects .box-with-projects .project .image {
@@ -172,7 +170,6 @@
     height: 30px;
     font-size: 0.8em;
     margin: 0 10px;
-
   }
 }
 
@@ -192,7 +189,6 @@
     max-width: 200px;
     font-size: 0.8em;
     font-family: Raleway, serif !important;
-  
   }
 
   .container-projects .box-with-projects .project .image {
@@ -215,7 +211,5 @@
     height: 30px;
     font-size: 0.8em;
     margin: 0 10px;
-
   }
- 
 }
