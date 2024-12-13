@@ -20,7 +20,7 @@ function Home() {
           </p>
         </div>
         <img
-          src="assets/images/home-main.png"
+          src="assets\images\home-main.png"
           alt="home pic"
           className="image"
         />
@@ -30,7 +30,7 @@ function Home() {
       </div>
 
       {/* -------------------------- */}
-      <section class="intro">
+      <section className="intro">
         <div className="text-box">
           <p>
             Я <span>фронтенд-разработчик</span> и <span>HTML-верстальщик</span>{" "}

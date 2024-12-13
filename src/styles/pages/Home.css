@@ -173,6 +173,10 @@ main .contact-me h2 {
 
 /* /////////////////////////////////////////////// */
 @media (max-width: 767px) {
+  main {
+    padding-top: 50px;
+  }
+
   main .vision-section {
     align-items: center;
     justify-content: center;

@@ -34,7 +34,7 @@ function Contact() {
           <a
             href="..\assets\resume\resume.pdf"
             download="resume.pdf"
-            class="download-resume-button"
+            className="download-resume-button"
           >
             Download Resume PDF
           </a>
