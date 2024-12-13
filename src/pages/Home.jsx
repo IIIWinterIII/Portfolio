@@ -20,7 +20,7 @@ function Home() {
           </p>
         </div>
         <img
-          src="../assets/images/home-main.png"
+          src="public\assets\images\home-main.png"
           alt="home pic"
           className="image"
         />
