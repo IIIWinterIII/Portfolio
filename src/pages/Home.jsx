@@ -20,7 +20,7 @@ function Home() {
           </p>
         </div>
         <img
-          src="public\assets\images\home-main.png"
+          src="assets/images/home-main.png"
           alt="home pic"
           className="image"
         />
@@ -50,7 +50,7 @@ function Home() {
         </div>
         <div className="avatar">
           <img
-            src="../assets/images/avatar-from-telegram.jpg"
+            src="assets/images/avatar-from-telegram.jpg"
             alt="my-avatar"
           />
         </div>
