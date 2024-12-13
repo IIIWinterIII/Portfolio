@@ -7,7 +7,7 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <div className="app-container">
-      <Header />
+      {/* <Header /> */}
       <main className="content">
         <Routes>
           {routes.map(({ path, component: Component }, index) => (
@@ -15,7 +15,7 @@ function App() {
           ))}
         </Routes>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

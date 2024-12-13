@@ -53,12 +53,12 @@ function Home() {
       </section>
       <div className="end-home">
         <h3>
-          Переходите в разделы сайта, чтобы узнать больше обо мне и моих
+          <span>Переходите</span> в <span>разделы сайта</span>, чтобы <span>узнать больше</span> обо мне и моих
           работах!
         </h3>
       </div>
       <div className="contact-me">
-        <h2>Не стесняйтесь связаться со мной</h2>
+        <h2>Не стесняйтесь <span>связаться</span> со мной</h2>
         <ContactButton />
       </div>
     </main>
