@@ -6,7 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +27,7 @@ function Header() {
           N.K.
         </Link>
       </div>
-      <div className="navigation">
+      <div className={`navigation ${isOpen ? 'open' : ''}`}>
         <nav>
           <ul>
             {routes.map((it, index) => (
@@ -35,14 +38,20 @@ function Header() {
                 </Link>
               </li>
             ))}
+            <li key={5} className="cbf">
+              <a
+                href="https://github.com/IIIWinterIII/Portfolio"
+                className="btn"
+              >
+                <FontAwesomeIcon icon={faCodeBranch} className="icons" />
+              </a>
+            </li>
           </ul>
         </nav>
-        <div className="cbf">
-          <a href="https://github.com/IIIWinterIII/Portfolio" className="btn">
-            <FontAwesomeIcon icon={faCodeBranch} className="icons" />
-          </a>
-        </div>
       </div>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
     </header>
   );
 }
