@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import routes from "../routes";
 import "../styles/components/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { faCodeBranch, faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ function Header() {
           <ul>
             {routes.map((it, index) => (
               <li key={index}>
-                <Link to={it.path} className="link">
+                <Link to={it.path} className="link" onClick={toggleMenu}>
                   <FontAwesomeIcon icon={it.icons} className="icons" />
                   {it.name}
                 </Link>
@@ -43,6 +43,7 @@ function Header() {
                 href="https://github.com/IIIWinterIII/Portfolio"
                 className="btn"
               >
+                
                 <FontAwesomeIcon icon={faCodeBranch} className="icons" />
               </a>
             </li>
@@ -50,7 +51,7 @@ function Header() {
         </nav>
       </div>
       <button className="menu-toggle" onClick={toggleMenu}>
-        ☰
+      <FontAwesomeIcon icon={faAngleDoubleRight} className={`arrow ${isOpen ? 'rotate' : ''}`} />
       </button>
     </header>
   );
