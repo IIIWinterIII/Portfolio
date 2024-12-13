@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar { /* 1 - скроллбар */
+  width: 4px;
+  height: 4px;
+  background-color: rgb(45, 1, 85);
+}
+
+::-webkit-scrollbar-thumb { /* 5 - ползунок */
+  border-radius: 2px;
+  background-color: blueviolet;
 }
 
 body,
