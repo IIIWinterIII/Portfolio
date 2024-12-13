@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import routes from "./routes";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollToTopButton from "./components/ScrollToTopButton.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route key={index} path={path} element={<Component />} />
           ))}
         </Routes>
+          <ScrollToTopButton />
       </main>
       <Footer />
     </div>
