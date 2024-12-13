@@ -177,7 +177,7 @@ main .contact-me h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 20px 100px;
+    padding: 10px 20px 30px;
   }
 
   main .vision-section .image {
@@ -240,14 +240,6 @@ main .contact-me h2 {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* main .vision-section {
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    padding: 10px 50px 100px;
-    height: auto;
-  } */
-
   main .vision-section .image {
     height: auto;
     max-height: 250px;
