@@ -1,10 +1,6 @@
-/* * {
-  border: 1px solid greenyellow;
-} */
-
 .container-projects {
   position: relative;
-  top: -50px; 
+  top: -50px;
 }
 
 .container-projects .text-section {

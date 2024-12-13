@@ -1,49 +1,49 @@
 .contact-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 60px; 
-  }
-  
-   .contact-box a {
-    display: inline-block;
-    color: #ffffff;
-    margin: 0 0.5em;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s;
-  }
-  
-   .contact-box a:first-child {
-    margin-right: 20px;
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 10px;
-  }
-  
-  .contact-box a:hover:first-child {
-    background-color: #0a0416;
-    box-shadow: none;
-    color: blueviolet;
-    box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
-    border-color: blueviolet;
-    transform: scale(1.1);
-  }
-  
-  .contact-box a:hover {
-    color: #000000;
-    box-shadow: 0 0 30px blueviolet, 0 0 40px blueviolet;
-    background-color: blueviolet;
-  }
-  
-  .contact-box a .icon:hover {
-    transform: scale(1.5);
-  }
-  
-  .contact-box a .icon {
-    font-size: 2rem;
-    transition: transform 0.3s ease;
-    display: inline-block;
-    vertical-align: middle;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+}
+
+.contact-box a {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 0.5em;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s;
+}
+
+.contact-box a:first-child {
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.contact-box a:hover:first-child {
+  background-color: #0a0416;
+  box-shadow: none;
+  color: blueviolet;
+  box-shadow: 0 0 1px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+  border-color: blueviolet;
+  transform: scale(1.1);
+}
+
+.contact-box a:hover {
+  color: #000000;
+  box-shadow: 0 0 30px blueviolet, 0 0 40px blueviolet;
+  background-color: blueviolet;
+}
+
+.contact-box a .icon:hover {
+  transform: scale(1.5);
+}
+
+.contact-box a .icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+}

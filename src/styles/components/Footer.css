@@ -1,7 +1,3 @@
-/* * {
-  border: 1px solid greenyellow;
-} */
- 
 .container-footer {
   background-color: #0a0416;
   color: #ffffff;
@@ -11,8 +7,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-
 }
 
 .container-footer p {
@@ -21,23 +15,22 @@
 }
 
 .container-footer .contact-box {
-    min-height: 50px; 
-  
+  min-height: 50px;
 }
 
 .container-footer .contact-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 40px; 
+  min-height: 40px;
 }
 
- .container-footer .contact-box a {
+.container-footer .contact-box a {
   margin: 0 8px;
   font-size: 0.7rem;
 }
 
- .container-footer .contact-box a:first-child {
+.container-footer .contact-box a:first-child {
   padding: 5px;
 }
 
@@ -65,7 +58,8 @@
 
   .container-footer p {
     margin-top: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 
   .container-footer .contact-box {
@@ -74,7 +68,4 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-
 }
-

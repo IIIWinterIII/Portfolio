@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/pages/Home.css";
-import ContactButton from "../components/ContactButton.jsx"
+import ContactButton from "../components/ContactButton.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,10 +9,14 @@ function Home() {
     <main>
       <div className="vision-section">
         <div className="text-box">
-         <span> <h1>Привет!</h1>
-          <h1>Меня зовут Низами.</h1></span>
+          <span>
+            {" "}
+            <h1>Привет!</h1>
+            <h1>Меня зовут Низами.</h1>
+          </span>
           <p>
-            Я <span>Frontend-разработчик</span>, создаю современные и удобные <span>веб-приложения</span>.
+            Я <span>Frontend-разработчик</span>, создаю современные и удобные{" "}
+            <span>веб-приложения</span>.
           </p>
         </div>
         <img
@@ -29,8 +33,8 @@ function Home() {
       <section class="intro">
         <div className="text-box">
           <p>
-            Я <span>фронтенд-разработчик</span> и <span>HTML-верстальщик</span>{" "}с
-            опытом создания удобных и эстетичных веб-сайтов.
+            Я <span>фронтенд-разработчик</span> и <span>HTML-верстальщик</span>{" "}
+            с опытом создания удобных и эстетичных веб-сайтов.
           </p>
           <p>
             Мои начальные шаги включали <span>разработку сайтов</span> для
@@ -53,12 +57,14 @@ function Home() {
       </section>
       <div className="end-home">
         <h3>
-          <span>Переходите</span> в <span>разделы сайта</span>, чтобы <span>узнать больше</span> обо мне и моих
-          работах!
+          <span>Переходите</span> в <span>разделы сайта</span>, чтобы{" "}
+          <span>узнать больше</span> обо мне и моих работах!
         </h3>
       </div>
       <div className="contact-me">
-        <h2>Не стесняйтесь <span>связаться</span> со мной</h2>
+        <h2>
+          Не стесняйтесь <span>связаться</span> со мной
+        </h2>
         <ContactButton />
       </div>
     </main>
