@@ -12,13 +12,12 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const toggleMensetIsOpen(!isOpen);u = () => {
+  const toggleMenu = () => {
     setIsOpen(!isOpen)   
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  
+    })
   } 
 
   useEffect(() => {
