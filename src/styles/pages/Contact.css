@@ -49,6 +49,7 @@
   border: 1px solid white;
   border-radius: 3px;
   padding: 5px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .container-contact .contacts-box .contact-messager .mail:hover,
@@ -117,7 +118,7 @@
   .container-contact {
     align-items: center;
     flex-direction: column;
-      margin-top: -20px;
+    margin-top: -20px;
   }
 
   .container-contact .contacts-box {

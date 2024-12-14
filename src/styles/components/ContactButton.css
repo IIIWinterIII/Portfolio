@@ -13,6 +13,7 @@
   text-decoration: none;
   font-size: 1.2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .contact-box a:first-child {

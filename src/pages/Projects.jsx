@@ -14,7 +14,7 @@ function Projects() {
       <div className="box-with-projects">
         <div className="project">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/Documentation-Page.png`}
+            src={`${process.env.PUBLIC_URL}/assets/images/Documentation-Page.jpg`}
             alt="documentation-page"
             className="image"
           />
