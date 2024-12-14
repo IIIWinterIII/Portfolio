@@ -117,6 +117,7 @@
   .container-contact {
     align-items: center;
     flex-direction: column;
+      margin-top: -20px;
   }
 
   .container-contact .contacts-box {

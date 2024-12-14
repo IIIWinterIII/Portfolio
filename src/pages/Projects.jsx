@@ -14,7 +14,7 @@ function Projects() {
       <div className="box-with-projects">
         <div className="project">
           <img
-            src="assets/images/Documentation-Page.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Documentation-Page.png`}
             alt="documentation-page"
             className="image"
           />
@@ -46,7 +46,7 @@ function Projects() {
         </div>
         <div className="project">
           <img
-            src="assets/images/Beauty-salon.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Beauty-salon.png`}
             alt="beauty-salon"
             className="image"
           />
@@ -68,7 +68,7 @@ function Projects() {
         </div>
         <div className="project">
           <img
-            src="assets/images/Muhammad-Ali.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Muhammad-Ali.png`}
             alt="Muhammad-Ali"
             className="image"
           />
@@ -98,7 +98,7 @@ function Projects() {
         </div>
         <div className="project">
           <img
-            src="assets/images/Random-Quote-Machine.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Random-Quote-Machine.png`}
             alt="Random-Quote-Machine"
             className="image"
           />
@@ -131,7 +131,7 @@ function Projects() {
         </div>
         <div className="project">
           <img
-            src="assets/images/Markdown-Previewer.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Markdown-Previewer.png`}
             alt="Markdown-Previewer"
             className="image"
           />

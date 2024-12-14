@@ -37,7 +37,7 @@ function About() {
             исследовать новые технологии и отдыхать в <span>тишине</span>.
           </p>
         </section>
-        <img src="assets/images/about.png" alt="about" className="image" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/about.png`} alt="about" className="image" />
       </div>
 
       <div className="scills">

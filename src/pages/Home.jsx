@@ -20,7 +20,7 @@ function Home() {
           </p>
         </div>
         <img
-          src="assets\images\home-main.png"
+          src={`${process.env.PUBLIC_URL}/assets/images/home-main.png`}
           alt="home pic"
           className="image"
         />
@@ -50,7 +50,7 @@ function Home() {
         </div>
         <div className="avatar">
           <img
-            src="assets/images/avatar-from-telegram.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/images/avatar-from-telegram.jpg`}
             alt="my-avatar"
           />
         </div>

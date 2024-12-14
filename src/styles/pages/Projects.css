@@ -124,7 +124,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    top: -30px;
   }
+
+ 
 
   .container-projects .text-section h1 {
     font-size: 1.2em;

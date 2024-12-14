@@ -14,10 +14,6 @@ function Header() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)   
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    })
   } 
 
   useEffect(() => {

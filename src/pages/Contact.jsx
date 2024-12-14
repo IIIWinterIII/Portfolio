@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import "../styles/pages/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram, faGithub } from "@fortawesome/free-brands-svg-icons";
