@@ -23,13 +23,13 @@ function About() {
             <span>фронтенд-разработчик</span>, увлеченный созданием красивых и
             удобных <span>веб-интерфейсов</span>. Работаю с{" "}
             <span>JavaScript</span>, <span>React</span>, <span>HTML</span> и
-            <span>CSS</span>, а также совершенствую навыки в разработке
-            <span>PWA</span> и адаптивных приложений.
+            <span> CSS</span>, а также совершенствую навыки в разработке
+            <span> PWA</span> и адаптивных приложений.
           </p>
           <p>
             Создаю сайты под ключ, предлагая <span>качественные</span> и
-            <span>современные</span> решения. Если вам нужен ответственный
-            <span>разработчик</span> или вы ищете <span>сотрудника</span> в свою
+            <span> современные</span> решения. Если вам нужен ответственный
+            <span> разработчик</span> или вы ищете <span>сотрудника</span> в свою
             команду, я готов быть полезным и открытым к новым вызовам!
           </p>
           <p>
@@ -37,7 +37,11 @@ function About() {
             исследовать новые технологии и отдыхать в <span>тишине</span>.
           </p>
         </section>
-        <img src={`${process.env.PUBLIC_URL}/assets/images/about.png`} alt="about" className="image" />
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/about.png`}
+          alt="about"
+          className="image"
+        />
       </div>
 
       <div className="scills">

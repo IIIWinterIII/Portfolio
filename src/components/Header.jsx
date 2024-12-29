@@ -35,11 +35,11 @@ function Header() {
       <div className={`navigation ${isOpen ? "open" : ""}`}>
         <nav>
           <ul>
-            {routes.map((it, index) => (
+            {routes.map(({path, name, icons}, index) => (
               <li key={index}>
-                <Link to={it.path} className="link" onClick={toggleMenu}>
-                  <FontAwesomeIcon icon={it.icons} className="icons" />
-                  {it.name}
+                <Link to={path} className="link" onClick={toggleMenu}>
+                  <FontAwesomeIcon icon={icons} className="icons" />
+                  {name}
                 </Link>
               </li>
             ))}
