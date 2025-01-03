@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import routes from "../routes";
+
 import "../styles/components/Header.css";
+
+import { Link, useLocation } from "react-router-dom";
+import routes from "../routes";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCodeBranch,
@@ -11,6 +14,8 @@ import {
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const { pathname } = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -35,9 +40,9 @@ function Header() {
       <div className={`navigation ${isOpen ? "open" : ""}`}>
         <nav>
           <ul>
-            {routes.map(({path, name, icons}, index) => (
+            {routes.map(({ path, name, icons }, index) => (
               <li key={index}>
-                <Link to={path} className="link" onClick={toggleMenu}>
+                <Link to={path} className={`link ${pathname === path ? "active" : ""}`} onClick={toggleMenu}>
                   <FontAwesomeIcon icon={icons} className="icons" />
                   {name}
                 </Link>
